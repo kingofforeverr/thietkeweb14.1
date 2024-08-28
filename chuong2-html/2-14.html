@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+        body,form,.input-wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: end;
+        }
+        li{
+            padding: 0 5px;
+        }
+        .input-wrapper{
+            padding-bottom: 5px;
+        }
+        .wrapper{
+            box-shadow: 3px 3px 30px #1212;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <img src="logo_mango.png" alt="logo_mango">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Location</a></li>
+            <li><a href="">Blog</a></li>
+        </ul>
+        <form action="">
+            <h1 style="color: rgb(112, 54, 54);">Sign Up</h1>
+            <div class="input-wrapper">
+                <label for="f-name">First Name</label>
+                <input type="text" id="f-name" minlength="2" maxlength="20" required>
+            </div>
+            <div class="input-wrapper">
+                <label for="f-name">First Name</label>
+                <input type="text" id="f-name" minlength="5" maxlength="50" required>
+            </div>
+            <div class="input-wrapper">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="input-wrapper">
+                <label for="pass">Password</label>
+                <input type="password" id="pass" required minlength="8" maxlength="30">
+            </div>
+            <div class="input-wrapper">
+                <label for="Confirm">Confirm Password</label>
+                <input type="password" id="Confirm" required minlength="8" maxlength="30">
+            </div>
+            <button type="submit">Sign Up</button>
+            <p>Copyright by Mango.org</p>
+        </form>
+
+    </div>
+</body>
+</html>

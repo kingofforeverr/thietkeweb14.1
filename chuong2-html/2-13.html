@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2-13.css">
+    <title>Document</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <style>
+        *{
+            
+            margin: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body >
+    <div class="container">
+
+        <form  action="">
+            <h1>Book a Table</h1>
+            <fieldset>
+                <legend>Your name</legend>
+                <input title="name" type="text">
+            </fieldset>
+            <fieldset>
+                <legend>Sex</legend>
+                <input type="radio" id="male" name="gender" >
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" checked>
+                <label for="female">Female</label>
+            </fieldset>
+            <fieldset>
+                <legend>Size</legend>
+                <input type="radio" id="two" name="size" >
+                <label for="two">2-person table</label>
+                <input type="radio" id="four" name="size" checked>
+                <label for="four">4-person table</label>
+                <input type="radio" id="six" name="size" >
+                <label for="six">6-person table</label>
+            </fieldset>
+            <fieldset>
+                <legend>Location</legend>
+                <input type="radio" id="in" name="location" >
+                <label for="in">Indoor</label>
+                <input type="radio" id="out" name="location" checked>
+                <label for="out">Outdoor</label>
+            </fieldset>
+            <div class="submit">
+            <button type="submit">Book table</button>
+
+            </div> 
+        </form>
+       
+    </div>
+    
+</body>
+</html>

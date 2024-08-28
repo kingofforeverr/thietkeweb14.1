@@ -1,0 +1,22 @@
+
+fieldset,h1,button,.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+legend{
+    text-align: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form{
+    width: 600px;
+}
+label{
+    padding: 0 5px;
+}
+
