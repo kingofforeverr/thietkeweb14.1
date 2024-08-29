@@ -1,5 +1,5 @@
 
-fieldset,h1,button,.submit{
+/* fieldset,h1,button,.submit{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,5 +18,23 @@ form{
 }
 label{
     padding: 0 5px;
-}
+} */
 
+
+
+h1,fieldset,body,.submit{
+    display: flex;justify-content: center;
+    align-items: center;
+   
+    
+
+}
+legend{
+    text-align: center;
+}
+form{
+    width: 600px;
+}
+label{
+    padding: 0 5px;
+}
